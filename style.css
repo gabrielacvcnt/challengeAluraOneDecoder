@@ -1,0 +1,95 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    margin-left: 10px;
+    padding-top: 10px;
+    width:8%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 140px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{ color: #0A3871; }
+  .text-area:focus{
+      outline: none;
+    }
+
+.msg{
+    background: white;
+    background-image: url("./assets/searching.svg");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.msg:focus{
+    outline: none;
+}
+
+.bts{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btCrip{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btDescrip{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btCopy{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 242px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.infor{
+    color: #495057;
+    font-size:15px;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 165px;
+}

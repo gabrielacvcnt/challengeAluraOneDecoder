@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;1,400;1,700&family=Smythe&display=swap" rel="stylesheet">
+
+    <title>decodificador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./assets/logoAlura.svg" alt="Logo da Alura">
+    </header>
+    
+    <main>
+        <section>
+            <textarea class="text-area"  cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+            <div>
+                <h6 class="infor">Apenas letras minúsculas e sem acentuação</h6>
+            </div>
+
+            <div class="bts">
+                <button class="btCrip" onclick="btCriptografar()">criptografar</button>
+                <button class="btDescrip" onclick="btDescriptografar()">descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="msg" cols="20" rows="10" style="width: 390px; margin: 0 0 0 205px"></textarea>
+            <button class="btCopy">copiar</button>
+        </section>
+    </main>
+
+    <footer>Feito com ❤️ por Gabriela Cavalcante.</footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
